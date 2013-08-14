@@ -1,0 +1,19 @@
+<template name="locationItem">
+	<article>
+		<i></i>
+		<a class="vote up">⬆</a>
+		<a class="vote down">⬇</a>
+		<div>
+			<span>{{votes}}</span>
+			<h1>{{title}}</h1>
+			{{#if forecasts}}
+				<p>Average waveheight: {{averageRating}}</p>
+				<ul style="display: none">
+				{{#each forecasts}}
+					<li>{{msw}}: {{fadedRating}} on {{dateHelper timestamp}}</li>
+				{{/each}}
+				</ul>
+			{{/if}}
+		</div>
+	</article>
+</template>

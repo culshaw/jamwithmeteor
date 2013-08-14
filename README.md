@@ -1,4 +1,0 @@
-jamwithmeteor
-=============
-
-Jam with Meteor
