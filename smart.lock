@@ -1,7 +1,15 @@
 {
   "meteor": {},
   "dependencies": {
-    "basePackages": {},
-    "packages": {}
+    "basePackages": {
+      "scss": {}
+    },
+    "packages": {
+      "scss": {
+        "git": "https://github.com/fourseven/meteor-scss.git",
+        "tag": "v0.5.3",
+        "commit": "d3438b652f90ff2b418ac143fc3a746be2772e4b"
+      }
+    }
   }
 }
